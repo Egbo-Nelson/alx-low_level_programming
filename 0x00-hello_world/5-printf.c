@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - Enter
- * Return - (0)
+ * main - Enter Point
+ * Description: with proper grammer
+ * Return: Always (0) success
  */
 int main(void)
 {
