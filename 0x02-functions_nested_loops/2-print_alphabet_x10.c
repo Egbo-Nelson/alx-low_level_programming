@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry Point
- * dscription: void print_alphabet_x10(void)
+ * Description: function that prints 10 times the alphabet, in lowercase, followed by a new line
  * Return: Always (0) success
  */
 void print_alphabet_x10(void)
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{	
-		for (x = 92; x <= 122; x++)
+		for (x = 'a'; x <= 'z'; x++)
 		{	
 			_putchar(x);
 		}
